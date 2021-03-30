@@ -1,5 +1,5 @@
 def main():   
-    k = input("DNA sequence ")
+    k = input("DNA sequence = ")
     s = k[::-1]
     b = s.upper()
     l = b.replace('G', 'Z')
@@ -8,5 +8,5 @@ def main():
     e = r.replace('T', 'A')
     p = e.replace('Z', 'C')
     u = p.replace('Q', 'T')
-    print(u)
+    print('reverse complement = ', u)
 main()
